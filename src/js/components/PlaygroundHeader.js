@@ -36,7 +36,7 @@ export default class PlaygroundHeader extends React.Component {
 				<h1
 					className="playground-header-heading"
 				>
-					<a className="playground-header-heading-primary-title" href="https://github.com/MadLittleMods/postcss-css-variables">postcss-css-variables</a> Playground - <a href="https://github.com/postcss/postcss">PostCSS</a>
+					<a className="playground-header-heading-primary-title" href="#">Postcss variables tool</a> By Leonel 
 				</h1>
 
 				<div

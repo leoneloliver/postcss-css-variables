@@ -26,6 +26,12 @@ body{background: #000 !important;}
 .playground-header-heading>a {
     color: #9c9c9c !important;
 }
+.playground-live-reload-toggle-togglebox{
+	display: none !important;;
+}
+label.playground-options-menu-toggle {
+    display: none;
+}
 </style>
 <body>
 
@@ -44,6 +50,9 @@ body{background: #000 !important;}
 	<script src="build.js"></script>
 	<script>
 		System.import('src/js/main.js');
+		window.setTimeout(function(){
+			document.getElementsByClassName('playground-header-heading')[0].innerHTML = "<a>Postcss Variable tool</a> -  <span>By Leo</span>";
+		},100);
 	</script>
 </body>
 </html>
